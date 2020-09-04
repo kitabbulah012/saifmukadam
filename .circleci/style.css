@@ -1,0 +1,136 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+	height: 100vh;
+	background-color: background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+position: relative;
+}
+header:before{
+content: "";
+width: 520px;
+height: 550px;
+bottom:0;
+left:0;
+position: absolute;
+background-image: url("image/saif.jpg");
+background-repeat: no-repeat;
+background-repeat:round;
+background-size: 100% 100%;
+}
+
+nav {
+	width:100%;
+	height:25vh;
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+	position: absolute;
+}
+.logo a{
+	color:white;
+	font-size: 2rem;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.menu ul li{
+	list-style: none;
+	padding: 10px 15px;
+	display: inline-block;
+	text-decoration: none;
+}
+.menu ul li a{
+	color:white;
+	text-decoration: none;
+}
+.menu ul li a:hover{
+	background:linear-gradient(to bottom ,#615cfd 0%,#d465fe 100%);
+	
+}
+.Contact-btn a{
+	color:white;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 10px 10px;
+	font-weight: 500;
+	border:2px solid transparent;
+        
+margin:20px;
+
+}
+.Contact-btn a:hover{
+	border-bottom: 2px solid blue;
+	background:linear-gradient(to bottom ,#615cfd 0%,#d465fe 100%);
+	
+	
+}
+.active, ul li:hover{
+	border-top: 2px solid gold;
+	border-bottom: 2px solid gold;
+
+}
+
+.center-content{
+	top: 50%;
+	left:50%;
+	position: absolute;
+	transform:translate(-50%,-50%);
+	text-align: center;
+}
+.center-content h1{
+	color:green;
+	margin-bottom: 10px;
+	font-size: 70px;
+	font-weight: 700;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+}
+.center-content h2{
+	color:green;
+	text-align: left;
+	font-size: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+/*.center-content h2:before{
+content:"";
+height: auto;
+width:80px;
+border:2px solid white;
+position:absolute;
+left:40px;
+bottom: 0;
+margin-bottom: 10px;
+}*/
+.social-net{
+	width:100px;
+	height: auto;
+	position: absolute;
+	right:0;
+	top: 80%;
+	justify-content: center;
+	align-items: left;
+         margin:800% 0%px 500px 100%;
+
+	
+}
+.fa-icon{
+	width: 40px;
+	height: 40px;
+	border-radius:50%;
+	background:linear-gradient(to bottom ,#615cfd 0%,#d465fe 100%);
+	display:flex;
+
+	
+}
+.fa-icon:nth-child(even){
+	 margin: 20px 0px;
+}
+/*.grid-sec{
+	height: 30px;
+}*/
